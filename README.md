@@ -9,16 +9,16 @@
 
 - 可自行調整 retry 最大次數、retry 間隔時間
 
-使用 node-schedule、node-fetch 及 luxon 來管理時間與處理網路請求
+- 使用 node-schedule、node-fetch 及 luxon 來管理時間與處理網路請求
 
 ## 使用說明
 - write .env (required)
 
 - npm install
 
-- execute
-   1. npm start
-   2. open .bat
+- execute (2 way)
+   - npm start
+   - open .bat
 
 ## 注意事項
 請確保您擁有對該服務的合法使用權限
