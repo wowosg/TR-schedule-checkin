@@ -54,7 +54,7 @@ async function sendRequest() {
 
 function retrySendRequest() {
   let retryCount = 0;
-  const maxRetries = 5;
+  const maxRetries = 3;
   const interval = 50;
 
   const intervalId = setInterval(() => {
